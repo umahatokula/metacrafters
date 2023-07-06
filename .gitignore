@@ -9,6 +9,16 @@ typechain-types
 cache
 artifacts
 
-#vesting app
+#advanced
+/solidity/advanced/insurance/node_modules
+/solidity/advanced/insurance/.env
+
+/solidity/advanced/smart-contract-security/node_modules
+/solidity/advanced/smart-contract-security/.env
+
 /solidity/advanced/vesting-app/node_modules
 /solidity/advanced/vesting-app/.env
+
+#beginner
+/solidity/beginner/ummie/node_modules
+/solidity/beginner/ummie/.env
