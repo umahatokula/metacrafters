@@ -19,8 +19,8 @@ artifacts
 /solidity/advanced/vesting-app/node_modules
 /solidity/advanced/vesting-app/.env
 
-/solidity/advanced/abstraction/node_modules
-/solidity/advanced/abstraction/.env
+/solidity/advanced/account-abstraction/node_modules
+/solidity/advanced/account-abstraction/.env
 
 #beginner
 /solidity/beginner/ummie/node_modules
