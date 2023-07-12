@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("pages/_app",{
+
+/***/ "./artifacts/contracts/TokenVesting.sol/TokenVesting.json":
+/*!****************************************************************!*\
+  !*** ./artifacts/contracts/TokenVesting.sol/TokenVesting.json ***!
+  \****************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = JSON.parse('[{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"organization","type":"address"},{"indexed":true,"internalType":"address","name":"stakeholder","type":"address"}],"name":"AddressWhitelisted","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"organization","type":"address"},{"indexed":true,"internalType":"address","name":"tokenContract","type":"address"}],"name":"OrganizationRegistered","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"organization","type":"address"},{"indexed":true,"internalType":"address","name":"stakeholder","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"TokensClaimed","type":"event"},{"inputs":[{"internalType":"address","name":"_organization","type":"address"},{"internalType":"address","name":"_stakeholderAddress","type":"address"},{"internalType":"uint256","name":"_vestingPeriod","type":"uint256"},{"internalType":"uint256","name":"_totalTokens","type":"uint256"}],"name":"addStakeHolder","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"claimTokens","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"getStakeholder","outputs":[{"components":[{"internalType":"address","name":"stakerAddress","type":"address"},{"internalType":"uint256","name":"vestingPeriod","type":"uint256"},{"internalType":"uint256","name":"startTime","type":"uint256"},{"internalType":"uint256","name":"totalTokens","type":"uint256"},{"internalType":"uint256","name":"claimedTokens","type":"uint256"}],"internalType":"struct TokenVesting.Stakeholder","name":"","type":"tuple"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getStakerTokensClaimed","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"organizations","outputs":[{"internalType":"address","name":"organizationAddress","type":"address"},{"internalType":"address","name":"tokenContract","type":"address"},{"internalType":"string","name":"name","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"_tokenContract","type":"address"},{"internalType":"string","name":"_name","type":"string"}],"name":"registerOrganization","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"stakeHolderBalance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"stakeholders","outputs":[{"internalType":"address","name":"stakerAddress","type":"address"},{"internalType":"uint256","name":"vestingPeriod","type":"uint256"},{"internalType":"uint256","name":"startTime","type":"uint256"},{"internalType":"uint256","name":"totalTokens","type":"uint256"},{"internalType":"uint256","name":"claimedTokens","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"_stakeholder","type":"address"},{"internalType":"uint256","name":"_vestingPeriod","type":"uint256"}],"name":"whitelistAddress","outputs":[],"stateMutability":"nonpayable","type":"function"}]');
+
+/***/ })
+
+});
